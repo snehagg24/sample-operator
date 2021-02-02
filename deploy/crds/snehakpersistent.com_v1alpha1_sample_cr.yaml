@@ -1,0 +1,7 @@
+apiVersion: snehakpersistent.com/v1alpha1
+kind: Sample
+metadata:
+  name: example-sample
+spec:
+  # Add fields here
+  size: 3
