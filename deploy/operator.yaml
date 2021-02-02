@@ -16,7 +16,7 @@ spec:
       containers:
         - name: sample-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/snehakpersistent/sample-operator:v0.1
           command:
           - sample-operator
           imagePullPolicy: Always
