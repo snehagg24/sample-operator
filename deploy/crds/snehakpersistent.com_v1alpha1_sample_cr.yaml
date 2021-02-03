@@ -1,7 +1,10 @@
 apiVersion: snehakpersistent.com/v1alpha1
 kind: Sample
 metadata:
-  name: example-sample
+  name: example-sample-sneha
+  namespace: sample-operator
 spec:
   # Add fields here
-  size: 3
+  size: 2
+  bodyvalue: "Response received from POD : Hello!"
+  image: "quay.io/snehakpersistent/sample-operator:v0.1"
