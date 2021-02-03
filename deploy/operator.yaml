@@ -25,6 +25,8 @@ spec:
             - name: WATCH_NAMESPACE
               value: "sample-operator"
             - name: POD_NAME
-              value: "sample-operator"
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
             - name: OPERATOR_NAME
               value: "sample-operator"
